@@ -15,10 +15,10 @@ export default function Download() {
         </p>
         <div className="mt-4 flex flex-col items-center gap-2">
           <Button size="lg" asChild>
-            <Link href="#">
+            <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/raw/refs/heads/main/SmsSecureAsk%201.0.apk">
               <DownloadIcon className="mr-2 h-5 w-5" />
               Download APK
-            </Link>
+            </a>
           </Button>
           <p className="text-sm text-foreground/60">
             Compatible with Android 8.0 and above
