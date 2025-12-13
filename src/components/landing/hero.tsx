@@ -29,7 +29,7 @@ export default function Hero() {
             </Button>
             <Button size="lg" variant="outline" asChild>
               <a
-                href="https://github.com/0xrohitsen/Secure-SMS-Ask"
+                href="https://github.com/0xrohitsen/Secure-SMS-Ask/tree/main"
                 target="_blank"
                 rel="noopener noreferrer"
               >
