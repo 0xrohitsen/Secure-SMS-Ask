@@ -11,11 +11,11 @@
     A privacy-focused Android application to safely manage and forward your SMS messages.
     <br />
     <br />
+    <a href="https://secure-sms-ask.vercel.app/">View Website</a>
+    ·
     <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/raw/refs/heads/main/SmsSecureAsk%201.0.apk">Download APK</a>
     ·
     <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/issues">Request Feature</a>
   </p>
 
   <p align="center">
