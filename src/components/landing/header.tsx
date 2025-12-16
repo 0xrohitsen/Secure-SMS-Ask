@@ -9,7 +9,7 @@ export default function Header() {
         <div className="mr-4 flex items-center">
           <Link href="#hero" className="mr-6 flex items-center space-x-2">
             <Shield className="h-6 w-6 text-primary" />
-            <span className="font-bold sm:inline-block">Secure SMS Ask</span>
+            <span className="font-bold sm:inline-block">MySMS Forward</span>
           </Link>
           <nav className="hidden items-center gap-6 text-sm md:flex">
             <Link

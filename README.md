@@ -1,9 +1,9 @@
 <div align="center">
   <a href="https://secure-sms-ask.vercel.app/">
-    <img src="https://raw.githubusercontent.com/0xrohitsen/Secure-SMS-Ask/main/art/logo.png" alt="Secure SMS Ask Logo" width="120" height="120">
+    <img src="https://raw.githubusercontent.com/0xrohitsen/Secure-SMS-Ask/main/art/logo.png" alt="MySMS Forward Logo" width="120" height="120">
   </a>
 
-  <h1 align="center">Secure SMS Ask</h1>
+  <h1 align="center">MySMS Forward</h1>
 
   <p align="center">
     <strong>A Private, Secure, and Reliable Android SMS Forwarder App.</strong>
@@ -32,9 +32,9 @@
 
 ## 📖 About The Project
 
-**Secure SMS Ask** is an open-source Android SMS forwarder app built with a privacy-first philosophy. It gives you full control over your SMS messages by allowing you to forward them to another mobile number or a secure Telegram Bot. Your data remains on your device, ensuring your conversations are always private, secure, and delivered instantly.
+**MySMS Forward** is an open-source Android SMS forwarder app built with a privacy-first philosophy. It gives you full control over your SMS messages by allowing you to forward them to another mobile number or a secure Telegram Bot. Your data remains on your device, ensuring your conversations are always private, secure, and delivered instantly.
 
-Built for personal use, Secure SMS Ask is ad-free, tracker-free, and does not rely on any third-party analytics or cloud services. It's the simple, powerful SMS forwarding app you've been looking for.
+Built for personal use, MySMS Forward is ad-free, tracker-free, and does not rely on any third-party analytics or cloud services. It's the simple, powerful SMS forwarding app you've been looking for.
 
 ---
 
@@ -54,12 +54,12 @@ Built for personal use, Secure SMS Ask is ad-free, tracker-free, and does not re
 
 ## 🚀 Getting Started
 
-Follow these steps to get the Secure SMS Ask forwarder up and running on your device.
+Follow these steps to get the MySMS Forward forwarder up and running on your device.
 
 ### Installation
 
 1.  **Download the APK**:
-    - [**Download Secure SMS Ask v1.0 APK**](https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk)
+    - [**Download MySMS Forward v1.0 APK**](https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk)
 
 2.  **Enable Installation from Unknown Sources**:
     - On your Android device, go to `Settings` > `Security`.
