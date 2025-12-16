@@ -13,7 +13,7 @@
     <br />
     <a href="https://secure-sms-ask.vercel.app/">View Website</a>
     ·
-    <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/raw/refs/heads/main/SmsSecureAsk%201.0.apk">Download APK</a>
+    <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk">Download APK</a>
     ·
     <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/issues">Report Bug</a>
   </p>
@@ -57,7 +57,7 @@ Follow these steps to get Secure SMS Ask up and running on your device.
 ### Installation
 
 1.  **Download the APK**:
-    - [**Download Secure SMS Ask v1.0 APK**](https://github.com/0xrohitsen/Secure-SMS-Ask/raw/refs/heads/main/SmsSecureAsk%201.0.apk)
+    - [**Download Secure SMS Ask v1.0 APK**](https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk)
 
 2.  **Enable Installation from Unknown Sources**:
     - On your Android device, go to `Settings` > `Security`.
