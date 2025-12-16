@@ -10,9 +10,9 @@ import {
 const featuresList = [
   {
     icon: Send,
-    title: 'Dual Forwarding Options',
+    title: 'Dual Forwarding: SMS & Telegram',
     description:
-      'Forward SMS messages to another mobile number, a Telegram bot, or both. Each can be enabled or disabled independently.',
+      'Forward SMS messages to another mobile number, a secure Telegram bot, or both. Control each destination independently.',
   },
   {
     icon: Smartphone,
@@ -53,10 +53,11 @@ export default function Features() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Powerful & Reliable Features
+              Powerful Features of Our SMS Forwarder
             </h2>
             <p className="max-w-[900px] text-foreground/70 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Engineered for speed, control, and absolute reliability.
+              Engineered for speed, control, and absolute reliability. The best
+              SMS forwarder app for Android.
             </p>
           </div>
         </div>

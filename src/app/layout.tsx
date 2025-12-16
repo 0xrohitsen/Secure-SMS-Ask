@@ -3,8 +3,11 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Secure SMS Ask',
-  description: 'Private. Secure. Reliable SMS Forwarding.',
+  title: 'Secure SMS Ask | Private Android SMS Forwarder App',
+  description:
+    'A secure and private SMS forwarder app for Android. Forward SMS to another phone number or a Telegram bot instantly. Total privacy, no ads, no trackers.',
+  keywords:
+    'sms forwarder, sms forwarding app, android sms forwarder, private sms, secure sms, telegram sms, otp forwarder',
 };
 
 export default function RootLayout({

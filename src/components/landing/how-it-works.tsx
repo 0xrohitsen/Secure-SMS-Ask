@@ -7,7 +7,7 @@ const steps = [
   {
     title: 'Configure Your Endpoints',
     description:
-      'Enter the mobile number and/or Telegram Bot Token and Chat ID where you want to forward messages.',
+      'Enter the destination mobile number and/or your Telegram Bot Token and Chat ID for forwarding.',
   },
   {
     title: 'Select Your SIM',
@@ -17,7 +17,7 @@ const steps = [
   {
     title: 'Start Forwarding',
     description:
-      'Toggle the services you need and hit the "Start" button. The app will run silently in the background.',
+      'Toggle the services you need (SMS, Telegram, or both) and hit the "Start" button to begin forwarding.',
   },
 ];
 
@@ -30,7 +30,7 @@ export default function HowItWorks() {
             Simple to Set Up, Easy to Use
           </h2>
           <p className="mt-4 text-lg text-foreground/70 md:text-xl">
-            Get started in just a few simple steps.
+            Get your SMS forwarding running in just a few simple steps.
           </p>
         </div>
         <div className="relative mx-auto mt-12 max-w-5xl">

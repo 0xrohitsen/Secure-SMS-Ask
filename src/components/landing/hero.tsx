@@ -1,6 +1,5 @@
-import Link from 'next/link';
-import { Button } from '@/components/ui/button';
 import { Github, Download as DownloadIcon } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 export default function Hero() {
   return (
@@ -11,15 +10,15 @@ export default function Hero() {
             Your Personal Android SMS Forwarder
           </div>
           <h1 className="text-4xl font-extrabold tracking-tighter text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-            Secure SMS Ask
+            The Ultimate SMS Forwarder App
           </h1>
           <p className="mt-4 text-2xl font-semibold text-primary md:text-3xl">
-            Private. Secure. Reliable SMS Forwarding.
+            Private. Secure. Reliable SMS & Telegram Forwarding.
           </p>
           <p className="mx-auto mt-6 max-w-[700px] text-lg text-foreground/80 md:text-xl">
-            Take full control of your SMS messages. Forward texts to another
-            phone or Telegram bot instantly, with robust privacy and a
-            beautiful Material You interface.
+            Take full control of your SMS messages. Our SMS forwarder app lets
+            you instantly forward texts to another phone or a private Telegram
+            bot, with robust privacy and a beautiful Material You interface.
           </p>
           <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
             <Button size="lg" asChild>
@@ -30,7 +29,7 @@ export default function Hero() {
             </Button>
             <Button size="lg" variant="outline" asChild>
               <a
-                href="https://github.com/0xrohitsen/Secure-SMS-Ask/tree/main"
+                href="https://github.com/0xrohitsen/Secure-SMS-Ask"
                 target="_blank"
                 rel="noopener noreferrer"
               >
