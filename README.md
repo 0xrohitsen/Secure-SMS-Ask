@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/0xrohitsen/Secure-SMS-Ask">
+  <a href="https://secure-sms-ask.vercel.app/">
     <img src="https://raw.githubusercontent.com/0xrohitsen/Secure-SMS-Ask/main/art/logo.png" alt="Secure SMS Ask Logo" width="120" height="120">
   </a>
 
@@ -32,21 +32,23 @@
 
 ## 📖 About The Project
 
-**Secure SMS Ask** is an open-source Android application built with a privacy-first philosophy. It gives you full control over your SMS messages by allowing you to forward them to a secure, user-defined endpoint. Your data remains on your device, ensuring your conversations are always private.
+**Secure SMS Ask** is an open-source Android application built with a privacy-first philosophy. It gives you full control over your SMS messages by allowing you to forward them to another mobile number or a secure Telegram Bot. Your data remains on your device, ensuring your conversations are always private, secure, and delivered instantly.
 
-Built for personal use, Secure SMS Ask is ad-free and does not rely on any third-party analytics or cloud services.
+Built for personal use, Secure SMS Ask is ad-free, tracker-free, and does not rely on any third-party analytics or cloud services.
 
 ---
 
 ## ✨ Key Features
 
-- **🛡️ Privacy First**: No data collection, no tracking. Your privacy is the top priority.
-- **↪️ Secure SMS Forwarding**: Reliably forward messages to your own secure endpoint.
-- **⚙️ Background Service**: Runs seamlessly in the background and automatically restarts on device reboot.
-- **🔒 App Lock Protection**: Secure the application with a PIN to prevent unauthorized access.
-- **🌍 Open Source**: The complete source code is available on GitHub for full transparency.
-- **🚫 Ad-Free**: Enjoy a clean, distraction-free experience, forever.
-- **📱 On-Device Processing**: All operations happen locally on your device. Your data never leaves it.
+- **🛡️ Unyielding Privacy**: No data collection, no tracking, no ads. Your privacy is the top priority.
+- **↪️ Dual Forwarding**: Forward SMS to another mobile number, a Telegram bot, or both. Control each destination independently.
+- **📱 Dual SIM Support**: Explicitly choose which SIM to use for sending forwarded messages.
+- **⚡ Instant Delivery**: Forwards all incoming SMS—including OTPs, banking alerts, and personal texts—within 1-2 seconds.
+- **🔁 Intelligent Loop Prevention**: Critical safety logic prevents infinite forwarding loops and duplicate messages.
+- **⚙️ Robust Background Service**: Runs as a persistent foreground service that auto-restarts on boot, ensuring the app is never killed by the OS.
+- **🔒 On-Device & Offline First**: All processing happens locally. Internet is only used if you enable Telegram forwarding.
+- **🎨 Beautiful Material You UI**: A clean, modern interface with light & dark modes, smooth animations, and clear visual feedback.
+- **🌍 Open Source**: The complete, well-commented source code is available on GitHub for full transparency.
 
 ---
 
@@ -68,9 +70,10 @@ Follow these steps to get Secure SMS Ask up and running on your device.
 
 ### How to Use
 
-1.  **Grant SMS Permission**: On first launch, the app will request permission to read SMS messages, which is necessary for forwarding.
-2.  **Configure Forwarding**: In the app's settings, specify your secure forwarding endpoint.
-3.  **Run Silently**: The app will now run silently in the background, forwarding new messages as they arrive.
+1.  **Grant Permissions**: On first launch, the app will request necessary permissions (like `READ_SMS`, `SEND_SMS`) to function.
+2.  **Configure Forwarding**: In the single setup screen, enter your destination mobile number and/or Telegram bot details.
+3.  **Select SIM**: If you have a dual-SIM device, choose which SIM to use for forwarding.
+4.  **Start Service**: Toggle your desired forwarding options and press the "Start" button. The app will now run silently in the background.
 
 ---
 

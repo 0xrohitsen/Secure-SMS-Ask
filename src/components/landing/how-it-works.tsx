@@ -1,27 +1,29 @@
 const steps = [
   {
-    title: 'Install the App',
-    description: 'Download the APK and install it on your Android device.',
-  },
-  {
-    title: 'Grant SMS Permission',
+    title: 'Install & Grant Permissions',
     description:
-      'The app needs permission to read SMS to be able to forward them.',
+      'Install the APK and grant the necessary SMS and background permissions for the app to function.',
   },
   {
-    title: 'Configure Forwarding',
+    title: 'Configure Your Endpoints',
     description:
-      'Set up your secure endpoint and rules for forwarding messages.',
+      'Enter the mobile number and/or Telegram Bot Token and Chat ID where you want to forward messages.',
   },
   {
-    title: 'Runs in Background',
-    description: 'The app works silently and securely in the background.',
+    title: 'Select Your SIM',
+    description:
+      'If you have a dual SIM phone, choose which SIM to use for sending the forwarded SMS messages.',
+  },
+  {
+    title: 'Start Forwarding',
+    description:
+      'Toggle the services you need and hit the "Start" button. The app will run silently in the background.',
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="w-full py-20 md:py-24 lg:py-32">
+    <section id="how-it-works" className="w-full py-20 md:py-24 lg-py-32">
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">

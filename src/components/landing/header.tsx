@@ -30,6 +30,12 @@ export default function Header() {
             >
               Security
             </Link>
+            <Link
+              href="#ui-ux"
+              className="font-medium text-foreground/60 transition-colors hover:text-foreground/80"
+            >
+              UI/UX
+            </Link>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end">

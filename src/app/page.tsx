@@ -3,6 +3,7 @@ import Hero from '@/components/landing/hero';
 import Features from '@/components/landing/features';
 import HowItWorks from '@/components/landing/how-it-works';
 import Security from '@/components/landing/security';
+import UiUx from '@/components/landing/ui-ux';
 import Download from '@/components/landing/download';
 import Footer from '@/components/landing/footer';
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Features />
         <HowItWorks />
         <Security />
+        <UiUx />
         <Download />
       </main>
       <Footer />

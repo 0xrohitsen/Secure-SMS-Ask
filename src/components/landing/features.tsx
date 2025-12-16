@@ -1,37 +1,48 @@
-import { Lock, Cog, ShieldCheck, Send, Ban, Code } from 'lucide-react';
+import {
+  Send,
+  Cog,
+  Smartphone,
+  ShieldCheck,
+  Zap,
+  IterationCw,
+} from 'lucide-react';
 
 const featuresList = [
   {
-    icon: Lock,
-    title: 'Privacy First',
-    description: 'No data collection and no tracking. Your privacy is respected.',
+    icon: Send,
+    title: 'Dual Forwarding Options',
+    description:
+      'Forward SMS messages to another mobile number, a Telegram bot, or both. Each can be enabled or disabled independently.',
+  },
+  {
+    icon: Smartphone,
+    title: 'Dual SIM Support',
+    description:
+      'Easily select which SIM card (SIM 1 or SIM 2) to use for sending forwarded messages, perfect for dual SIM devices.',
+  },
+  {
+    icon: Zap,
+    title: 'Instant Delivery',
+    description:
+      'Your messages are forwarded within 1-2 seconds of arrival, ensuring you never miss critical information like OTPs or alerts.',
+  },
+  {
+    icon: IterationCw,
+    title: 'Intelligent Loop Prevention',
+    description:
+      'A critical safety feature prevents infinite forwarding loops, so the app never re-forwards messages it already sent.',
   },
   {
     icon: Cog,
-    title: 'Automatic Background Service',
+    title: 'Total User Control',
     description:
-      'Works seamlessly in the background, even after your device reboots.',
+      'A global Start/Stop switch gives you one-tap control. All your settings are saved locally and securely on your device.',
   },
   {
     icon: ShieldCheck,
-    title: 'App Lock Protection',
-    description: 'Secure the app with a PIN, preventing unauthorized access.',
-  },
-  {
-    icon: Send,
-    title: 'Smart SMS Forwarding',
-    description: 'Forward messages securely to your configured endpoint.',
-  },
-  {
-    icon: Ban,
-    title: 'No Ads',
-    description: 'A clean and distraction-free experience. Forever.',
-  },
-  {
-    icon: Code,
-    title: 'Open Source',
+    title: 'Rock-Solid Stability',
     description:
-      'Fully transparent source code available on GitHub for review.',
+      'Runs as a persistent foreground service that auto-starts on boot and is optimized to avoid being killed by the OS.',
   },
 ];
 
@@ -42,10 +53,10 @@ export default function Features() {
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-              Key Features
+              Powerful & Reliable Features
             </h2>
             <p className="max-w-[900px] text-foreground/70 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              Designed with your privacy and security as the top priority.
+              Engineered for speed, control, and absolute reliability.
             </p>
           </div>
         </div>
