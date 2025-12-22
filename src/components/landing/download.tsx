@@ -15,7 +15,7 @@ export default function Download() {
         </p>
         <div className="mt-4 flex flex-col items-center gap-2">
           <Button size="lg" asChild>
-            <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk">
+            <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/raw/refs/heads/main/SMS%20Forwarder%201.0.apk">
               <DownloadIcon className="mr-2 h-5 w-5" />
               Download APK
             </a>

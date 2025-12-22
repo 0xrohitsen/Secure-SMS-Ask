@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://secure-sms-ask.vercel.app/">
+  <a href="https://smsforwardapp.vercel.app/">
     <img src="https://raw.githubusercontent.com/0xrohitsen/Secure-SMS-Ask/main/art/logo.png" alt="MySMS Forward Logo" width="120" height="120">
   </a>
 
@@ -11,9 +11,9 @@
     The ultimate SMS forwarding app to safely manage and forward your SMS messages.
     <br />
     <br />
-    <a href="https://secure-sms-ask.vercel.app/"><strong>View Website</strong></a>
+    <a href="https://smsforwardapp.vercel.app/"><strong>View Website</strong></a>
     ·
-    <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk">Download APK</a>
+    <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/raw/refs/heads/main/SMS%20Forwarder%201.0.apk">Download APK</a>
     ·
     <a href="https://github.com/0xrohitsen/Secure-SMS-Ask/issues">Report Bug</a>
   </p>
@@ -59,7 +59,7 @@ Follow these steps to get the MySMS Forward forwarder up and running on your dev
 ### Installation
 
 1.  **Download the APK**:
-    - [**Download MySMS Forward v1.0 APK**](https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk)
+    - [**Download MySMS Forward v1.0 APK**](https://github.com/0xrohitsen/Secure-SMS-Ask/raw/refs/heads/main/SMS%20Forwarder%201.0.apk)
 
 2.  **Disable Google Play Protect (Temporary)**:
     - Open the **Play Store** app.
