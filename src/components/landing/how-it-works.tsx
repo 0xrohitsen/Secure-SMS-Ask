@@ -5,6 +5,11 @@ const steps = [
       'Click the download button to get the latest MySMS Forward APK file directly on your Android device.',
   },
   {
+    title: 'Disable Play Protect',
+    description:
+      "In the Play Store, go to Play Protect > Settings and temporarily turn off 'Scan apps with Play Protect' to prevent installation blocks.",
+  },
+  {
     title: 'Allow Unknown Apps',
     description:
       "Go to your device's Settings > Security and enable 'Install unknown apps' for your browser or file manager.",
@@ -27,7 +32,7 @@ export default function HowItWorks() {
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Get Your SMS Forwarder Running in 4 Steps
+            Get Your SMS Forwarder Running in 5 Steps
           </h2>
           <p className="mt-4 text-lg text-foreground/70 md:text-xl">
             Our simple setup process makes it easy to start forwarding your SMS
@@ -36,7 +41,7 @@ export default function HowItWorks() {
         </div>
         <div className="relative mx-auto mt-12 max-w-5xl">
           <div className="absolute left-1/2 top-5 hidden h-full w-px -translate-x-1/2 bg-border md:block"></div>
-          <div className="grid gap-12 md:grid-cols-4">
+          <div className="grid gap-12 md:grid-cols-5">
             {steps.map((step, index) => (
               <div
                 key={index}

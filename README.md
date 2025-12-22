@@ -61,11 +61,16 @@ Follow these steps to get the MySMS Forward forwarder up and running on your dev
 1.  **Download the APK**:
     - [**Download MySMS Forward v1.0 APK**](https://github.com/0xrohitsen/Secure-SMS-Ask/blob/main/SMS%20Forwarder%201.0.apk)
 
-2.  **Enable Installation from Unknown Sources**:
-    - On your Android device, go to `Settings` > `Security`.
-    - Find the option to "Install unknown apps" and enable it for your browser or file manager.
+2.  **Disable Google Play Protect (Temporary)**:
+    - Open the **Play Store** app.
+    - Tap your profile icon in the top right, then select **Play Protect**.
+    - Tap the **Settings** gear icon and turn off **"Scan apps with Play Protect"**. This prevents Android from blocking the installation. You can re-enable it after installing the app.
 
-3.  **Install the App**:
+3.  **Enable Installation from Unknown Sources**:
+    - On your Android device, go to `Settings` > `Security`.
+    - Find the option to **"Install unknown apps"** and enable it for your browser or file manager.
+
+4.  **Install the App**:
     - Open the downloaded `.apk` file to begin the installation.
 
 ### How to Use
