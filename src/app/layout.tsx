@@ -5,9 +5,9 @@ import { Toaster } from '@/components/ui/toaster';
 export const metadata: Metadata = {
   title: 'MySMS Forward | Private Android SMS Forwarder App',
   description:
-    'The best SMS forwarder app for Android. Forward SMS to another phone number or a Telegram bot instantly. Total privacy, no ads, no trackers.',
+    'The best SMS forwarder app for Android. Forward SMS to another phone number or a Telegram bot instantly. Total privacy, no ads, no trackers. Download the top Android SMS forwarder APK today.',
   keywords:
-    'sms forwarder app, sms forwarding app, android sms forwarder, private sms, secure sms, telegram sms, otp forwarder, mysms forward',
+    'sms forwarder app, android sms forwarder, sms forwarding app, private sms, secure sms, telegram sms, otp forwarder, mysms forward, best sms forwarder, sms forwarder apk',
 };
 
 export default function RootLayout({

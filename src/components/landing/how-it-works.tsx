@@ -1,23 +1,23 @@
 const steps = [
   {
+    title: 'Download the APK',
+    description:
+      'Click the download button to get the latest MySMS Forward APK file directly on your Android device.',
+  },
+  {
+    title: 'Allow Unknown Apps',
+    description:
+      "Go to your device's Settings > Security and enable 'Install unknown apps' for your browser or file manager.",
+  },
+  {
     title: 'Install & Grant Permissions',
     description:
-      'Install the APK and grant the necessary SMS and background permissions for the app to function.',
+      'Open the downloaded APK file to install it. On first launch, grant the necessary SMS and background permissions.',
   },
   {
-    title: 'Configure Your Endpoints',
+    title: 'Configure & Start',
     description:
-      'Enter the destination mobile number and/or your Telegram Bot Token and Chat ID for forwarding.',
-  },
-  {
-    title: 'Select Your SIM',
-    description:
-      'If you have a dual SIM phone, choose which SIM to use for sending the forwarded SMS messages.',
-  },
-  {
-    title: 'Start Forwarding',
-    description:
-      'Toggle the services you need (SMS, Telegram, or both) and hit the "Start" button to begin forwarding.',
+      'Enter your forwarding number or Telegram details, select a SIM, and hit the "Start" button to begin forwarding.',
   },
 ];
 
@@ -27,10 +27,11 @@ export default function HowItWorks() {
       <div className="container px-4 md:px-6">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Simple to Set Up, Easy to Use
+            Get Your SMS Forwarder Running in 4 Steps
           </h2>
           <p className="mt-4 text-lg text-foreground/70 md:text-xl">
-            Get your SMS forwarding running in just a few simple steps.
+            Our simple setup process makes it easy to start forwarding your SMS
+            messages in minutes.
           </p>
         </div>
         <div className="relative mx-auto mt-12 max-w-5xl">
